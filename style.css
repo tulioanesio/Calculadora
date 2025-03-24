@@ -1,10 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 24%, 19%);
+    padding: 250px;
 }
 
 .calculadora{
     display: flex;
+    margin: auto;
     flex-direction: column;
     justify-content: center;
     background-color: rgb(22, 20, 20);
@@ -37,6 +39,7 @@ input{
 
 button{
     border: none;
+    font-weight: bold;
     cursor: pointer;
     background-color: rgb(48, 42, 42);
     color: white;
@@ -58,29 +61,28 @@ button:active{
 }
 
 .operador{
-    background-color: orange;
+    background-color: hsl(39, 100%, 50%);
 }
 
 .operador:hover{
-
+    background-color: hsl(39, 100%, 45%);
 }
 
 .operador:active{
-    
+    background-color: hsl(39, 100%, 40%);
 }
 
 .igual{
-background-color: lightgreen;
-background-color: lightgreen;
+background-color: hsl(120, 73%, 75%);
 grid-column: 4 / 5; 
 }
 
 .igual:hover{
-
+    background-color: hsl(120, 73%, 70%);
 
 }
 
 .igual:active{
-
+    background-color: hsl(120, 73%, 65%);
 
 }
